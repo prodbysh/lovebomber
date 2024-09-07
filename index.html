@@ -82,6 +82,10 @@
         const yesButton = document.getElementById('yesButton');
 
         // No Button: Opens a YouTube video when clicked
+        yesButton.addEventListener('click', function() {
+            window.open("https://www.youtube.com/shorts/5JrO9smX8Vg", "_blank");
+        });
+
         noButton.addEventListener('click', function() {
             window.open("https://www.youtube.com/shorts/5JrO9smX8Vg", "_blank");
         });
